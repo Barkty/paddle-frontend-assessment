@@ -1,0 +1,35 @@
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(30,0,64);
+    margin-top: -20px;
+}
+.landing-wrap {
+    width: 50%;
+    height: auto;
+    margin-left: 350px;
+    padding-top: 60px;
+}
+.landing-title {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    white-space: wrap;
+}
+.landing-text {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.landing-time {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
