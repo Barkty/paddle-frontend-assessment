@@ -26,10 +26,34 @@
     letter-spacing: 1.5px;
 }
 .landing-time {
-    width: 400px;
+    width: 500px;
     height: auto;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.landing-hour {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.landing-hour h2 {
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+.landing-hour p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -20px;
 }
