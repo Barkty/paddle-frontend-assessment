@@ -11,4 +11,5 @@
     height: 250px;
     background-color: #3C3350;
     border-radius: 50%/100px 100px 0 0;
+    z-index: 3;
 }
